@@ -1,7 +1,6 @@
 ejercicio palíndromos java
 
-
-codigo javascript
+1. codigo javascript
 function esPalindromo(cadena) {
 
     let resultado = "";
@@ -12,7 +11,7 @@ function esPalindromo(cadena) {
 
 }
 
-inicializa una variable de tipo string.
+2. inicializa una variable de tipo string.
 
 luego con el paramatro de entrada "cadena" y el uso del metodo split(''), reverse() y join('') que convierten la cadena
 a un arreglo para despues invertirla y finalmente hacerla cadena de nuevo.
@@ -24,4 +23,6 @@ un ejemplo puede ser ingresar "oso", lo que revolverá true, puesto a que se lee
 
 3.4 funciona para los casos de prueba "aca", "acas", "h"
 
-4.1
+4.1 No hay excepciones para numeros, cadenas vacias o cadenas con espacios.
+
+5 ya están las modificaciones necesarias para evitar los casos de errores mas criticos.

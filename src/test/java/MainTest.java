@@ -25,11 +25,11 @@ class MainTest {
 
     @Test
     void esPalindromo() {
-        assertTrue(Main.esPalindromo(cadenaVacia));
+        assertFalse(Main.esPalindromo(cadenaVacia));
         assertTrue(Main.esPalindromo(cadenaValida));
         assertFalse(Main.esPalindromo(String.valueOf(numero)));
         assertFalse(Main.esPalindromo(cadenaInvalida));
-        assertFalse(Main.esPalindromo(cadenaConEspacios));
+        assertTrue(Main.esPalindromo(cadenaConEspacios));
 
 
     }
